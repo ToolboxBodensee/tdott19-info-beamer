@@ -8,6 +8,12 @@ info-beamer zum Darstellen des Fahrplans auf dem Tag der offenen Toolbox Tür 20
 
 Aufgesetzt wird der mit ansible: [deploy ansible](https://github.com/ToolboxBodensee/ansible_deploy_tdott_displays).
 
+
+ Manual Usage
+--------------
+[info-beamer](https://info-beamer.com) supports data formats like JSON or XML. 
+With ``make -B -C $(pwd) all`` you can download and extract the latest shedule information from pretalx or frab shedule.
+
  Thanks
 --------
 Vielen Dank auch an raoul für die erstellung des info-beamer node.<br/>
