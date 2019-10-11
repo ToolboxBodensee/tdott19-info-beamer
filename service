@@ -7,7 +7,7 @@ from calendar import timegm
 from datetime import datetime
 import pytz
 
-day0 = datetime(2019, 8, 1, 0, 0, 0)
+day0 = datetime(2019, 10, 12, 0, 0, 0)
 
 # Fake time in UTC
 fake = None

@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 import json
@@ -31,22 +31,24 @@ events = sorted(events, key=starttime)
 eventdata = []
 
 room_map = {
-    'Bibliothek': 'B',
-    'Holzwerkstatt 1 (abgesperrt)': 'H1',
-    'Holzwerkstatt 2 (abgesperrt)': 'H2',
-    'Küche (abgesperrt, kein Zugang)': 'K',
-    'Siebdruckraum': 'S',
-    'Sonstige Angebote und Aufgaben': '?',
-    'Tonstudio': 'T',
-    'room42': '42',
-    'Lecture Room': 'LR',
-    'draußen': 'O',
-    'vor der Toolbox': 'O',
-    'Movie Room': 'MR',
-    'Workshop Room': 'WR',
-    'Hackcenter': 'HC',
-    'Hackcenter (Outdoor)': 'OD',
-    'Aula der BFH': 'BFH',
+    u'Bibliothek': 'B',
+    u'Lounge': 'L',
+    u'Holzwerkstatt 1 (abgesperrt)': 'H1',
+    u'Holzwerkstatt 2 (abgesperrt)': 'H2',
+    u'K\xfcche (abgesperrt, kein Zugang)': 'K',
+    u'K\xfcche \(abgesperrt, kein Zugang\)': 'K',
+    u'Siebdruckraum': 'S',
+    u'Sonstige Angebote und Aufgaben': '?',
+    u'Tonstudio': 'T',
+    u'ruum42': '42',
+    u'Lecture Room': 'LR',
+    u'draußen': 'O',
+    u'vor der Toolbox': 'O',
+    u'Movie Room': 'MR',
+    u'Workshop Room': 'WR',
+    u'Hackcenter': 'HC',
+    u'Hackcenter (Outdoor)': 'OD',
+    u'Aula der BFH': 'BFH',
     u'Workshop Raum im Gartenbaugeb\xe4ude': 'GB',
     u'woanders': '??',
     u'Gro\xdfer Saal': 'SA',
