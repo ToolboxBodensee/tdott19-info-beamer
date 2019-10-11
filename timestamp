@@ -31,7 +31,17 @@ events = sorted(events, key=starttime)
 eventdata = []
 
 room_map = {
+    'Bibliothek': 'B'.
+    'Holzwerkstatt 1 (abgesperrt)': 'H1',
+    'Holzwerkstatt 2 (abgesperrt)': 'H2',
+    'Küche (abgesperrt, kein Zugang)': 'K',
+    'Siebdruckraum': 'S',
+    'Sonstige Angebote und Aufgaben': '?',
+    'Tonstudio': 'T',
+    'room42': '42',
     'Lecture Room': 'LR',
+    'draußen': 'O'
+    'vor der Toolbox': 'O'
     'Movie Room': 'MR',
     'Workshop Room': 'WR',
     'Hackcenter': 'HC',

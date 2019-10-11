@@ -80,8 +80,8 @@ function node.render()
 --   header[frame]:draw(0, 0, 1920, 580)
    header:draw(0, 0, 1920, 580)
 
-   bold_twc:write(xpos, 20, 'Tag der offenen', 120, 1,1,1,alpha)
-   bold_twc:write(xpos, 170, 'Toolbox Thyre 2019', 120, 1,1,1,alpha)
+   bold_twc:write(xpos, 20, 'Tag der offenen Toolbox', 120, 1,1,1,alpha)
+   bold_twc:write(xpos, 170, 'Türe 2019', 120, 1,1,1,alpha)
 
 
    -- Day and clock
@@ -135,7 +135,7 @@ function node.render()
 
    -- Room lookup table
    regular_scp:write(xpos, 1028,
-   'HBK: Vorträge HBK Gebäude  /  WS: Workshop HBK Gebäude / FR: Feuerstelle  /  DA: Unterm Vordach  /  GB: Gartenbaugebäude',
+   '42: Vorträge ruum42  /  B: Bibliothek /  H1: Holzwerkstatt 1  /  H2: Holzwerkstatt 2  / K: Küche  /  S: Siebdruckraum  /  T: Tonstudio  /  O: Outdoor / ?: other',
        24.5, 1,1,1,alpha)
 ---    30, 1,1,1,alpha)
 end
