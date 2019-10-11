@@ -80,8 +80,8 @@ function node.render()
 --   header[frame]:draw(0, 0, 1920, 580)
    header:draw(0, 0, 1920, 580)
 
-   bold_twc:write(xpos, 20, 'Technik Camp', 120, 1,1,1,alpha)
-   bold_twc:write(xpos, 170, '2019', 120, 1,1,1,alpha)
+   bold_twc:write(xpos, 20, 'Tag der offenen', 120, 1,1,1,alpha)
+   bold_twc:write(xpos, 170, 'Toolbox Thyre 2019', 120, 1,1,1,alpha)
 
 
    -- Day and clock
