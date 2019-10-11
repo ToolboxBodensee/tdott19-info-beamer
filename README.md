@@ -1,14 +1,12 @@
- technikcamp-info-beamer
+ tdott19-info-beamer
 ==============================
 
-![Technik Camp](https://github.com/ffbsee/ffbsee-grafik/blob/master/events/technikcamp2019-sticker.svg "Technik Camp 2019")
-
-info-beamer zum Darstellen des Fahrplans auf dem Technik Camp.
+info-beamer zum Darstellen des Fahrplans auf dem Tag der offenen Toolbox Tür 2019.
 
  Deployment
 ------------
 
-Aufgesetzt wird der mit ansible: [deploy ansible](https://github.com/ffbsee/ansible-deploy-camp-displays.git).
+Aufgesetzt wird der mit ansible: [deploy ansible](https://github.com/ToolboxBodensee/ansible_deploy_tdott_displays).
 
  Thanks
 --------
