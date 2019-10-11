@@ -40,8 +40,8 @@ room_map = {
     'Tonstudio': 'T',
     'room42': '42',
     'Lecture Room': 'LR',
-    'draußen': 'O'
-    'vor der Toolbox': 'O'
+    'draußen': 'O',
+    'vor der Toolbox': 'O',
     'Movie Room': 'MR',
     'Workshop Room': 'WR',
     'Hackcenter': 'HC',
