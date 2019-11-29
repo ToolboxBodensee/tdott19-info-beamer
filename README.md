@@ -1,6 +1,8 @@
  tdott19-info-beamer
 ==============================
 
+**Entwicklung nur auf [GitLab](https://gitlab.com/ToolboxBodensee/events/tdott19-info-beamer). Auf GitHub befindet sich lediglich ein Mirror**
+
 info-beamer zum Darstellen des Fahrplans auf dem Tag der offenen Toolbox Tür 2019.
 
  Deployment
